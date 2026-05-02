@@ -2076,6 +2076,326 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:GND"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:VBUS"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "VBUS"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VBUS\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VBUS_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VBUS_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 40.64 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b033e67-f034-41e1-9757-25b6dcbed69f")
+	)
+	(wire
+		(pts
+			(xy 40.64 115.57) (xy 40.64 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a565612d-1f2b-4bac-9236-9542e12a4573")
+	)
+	(wire
+		(pts
+			(xy 55.88 95.25) (xy 55.88 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bffc28c6-40d1-4a21-b832-8ad71b3e12f3")
+	)
+	(wire
+		(pts
+			(xy 55.88 90.17) (xy 55.88 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5bad958-8800-45b0-b67e-85016017ca0c")
+	)
+	(wire
+		(pts
+			(xy 33.02 115.57) (xy 40.64 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc054a30-a9fd-44be-958a-5336da09b7ba")
+	)
+	(label "VBUS"
+		(at 74.93 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "257e2583-c6cf-47d8-81fc-50ba980cd180")
+	)
+	(label "VBUS"
+		(at 55.88 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ad4e5d05-320a-480d-8e7f-e62437828a11")
 	)
 	(symbol
 		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
@@ -2204,7 +2524,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 93.98 77.47 0)
+		(at 113.03 86.36 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2215,7 +2535,7 @@
 		(fields_autoplaced yes)
 		(uuid "28831316-5dd4-4ca8-be2f-dd6afe1bfd0a")
 		(property "Reference" "C2"
-			(at 97.79 76.1999 0)
+			(at 116.84 85.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2226,7 +2546,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 97.79 78.7399 0)
+			(at 116.84 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2237,7 +2557,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 94.9452 81.28 0)
+			(at 113.9952 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2248,7 +2568,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 77.47 0)
+			(at 113.03 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2259,7 +2579,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 93.98 77.47 0)
+			(at 113.03 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2368,8 +2688,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 91.44 95.25 0)
+		(lib_id "power:VBUS")
+		(at 52.07 55.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2378,31 +2698,30 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "83068fdb-bfd2-4fa7-b294-03b50cbfc9b6")
-		(property "Reference" "R2"
-			(at 93.98 93.9799 0)
+		(uuid "322223d2-9a67-4c66-869e-f034177c3a58")
+		(property "Reference" "#PWR02"
+			(at 52.07 59.69 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 93.98 96.5199 0)
+		(property "Value" "VBUS"
+			(at 52.07 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 89.662 95.25 90)
+			(at 52.07 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2413,7 +2732,86 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 95.25 0)
+			(at 52.07 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 52.07 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "587cdb0a-b7e4-4e15-865c-2c35dfaf17f4")
+		)
+		(instances
+			(project "Keyboard_USB_Adapter"
+				(path "/5abeb7b7-6d19-4686-bb3f-ba353c7d837b"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 102.87 128.27 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "83068fdb-bfd2-4fa7-b294-03b50cbfc9b6")
+		(property "Reference" "R2"
+			(at 105.41 126.9999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 105.41 129.5399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.092 128.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2424,7 +2822,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 91.44 95.25 0)
+			(at 102.87 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2451,7 +2849,7 @@
 	)
 	(symbol
 		(lib_id "Device:Polyfuse")
-		(at 60.96 68.58 0)
+		(at 74.93 67.31 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2462,7 +2860,8 @@
 		(fields_autoplaced yes)
 		(uuid "8881fc98-d711-4118-ba28-1779cc1f7306")
 		(property "Reference" "F1"
-			(at 63.5 67.3099 0)
+			(at 77.47 66.0399 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2473,7 +2872,7 @@
 			)
 		)
 		(property "Value" "Polyfuse"
-			(at 63.5 69.8499 0)
+			(at 77.47 68.5799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2484,7 +2883,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 73.66 0)
+			(at 76.2 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2496,7 +2895,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 68.58 0)
+			(at 74.93 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2507,7 +2906,7 @@
 			)
 		)
 		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
-			(at 60.96 68.58 0)
+			(at 74.93 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2533,8 +2932,86 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 40.64 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b61eb53-d16d-4574-ba64-46708562d6c9")
+		(property "Reference" "#PWR01"
+			(at 40.64 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 40.64 127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 40.64 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1d84cccf-aa0c-4bcc-871b-92580e3e30a6")
+		)
+		(instances
+			(project "Keyboard_USB_Adapter"
+				(path "/5abeb7b7-6d19-4686-bb3f-ba353c7d837b"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Power_Protection:USBLC6-2SC6")
-		(at 90.17 54.61 0)
+		(at 88.9 113.03 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2545,7 +3022,7 @@
 		(fields_autoplaced yes)
 		(uuid "bf95be1f-b5f8-49db-b388-8d09d9669fd6")
 		(property "Reference" "U1"
-			(at 91.8211 46.99 0)
+			(at 90.5511 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2556,7 +3033,7 @@
 			)
 		)
 		(property "Value" "USBLC6-2SC6"
-			(at 91.8211 49.53 0)
+			(at 90.5511 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2567,7 +3044,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 91.44 60.96 0)
+			(at 90.17 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2580,7 +3057,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
-			(at 91.44 62.865 0)
+			(at 90.17 121.285 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2592,7 +3069,7 @@
 			)
 		)
 		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
-			(at 90.17 54.61 0)
+			(at 88.9 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2631,7 +3108,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 77.47 93.98 0)
+		(at 83.82 125.73 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2642,7 +3119,7 @@
 		(fields_autoplaced yes)
 		(uuid "d2183deb-feb6-4647-9006-8c1de8f62917")
 		(property "Reference" "R1"
-			(at 80.01 92.7099 0)
+			(at 86.36 124.4599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2653,7 +3130,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 80.01 95.2499 0)
+			(at 86.36 126.9999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2664,7 +3141,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 75.692 93.98 90)
+			(at 82.042 125.73 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2675,7 +3152,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 93.98 0)
+			(at 83.82 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2686,7 +3163,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 77.47 93.98 0)
+			(at 83.82 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2713,7 +3190,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x05")
-		(at 133.35 55.88 0)
+		(at 111.76 71.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2724,7 +3201,7 @@
 		(fields_autoplaced yes)
 		(uuid "d7a0e0b6-7bff-47f2-8e57-a78defb2c996")
 		(property "Reference" "J2"
-			(at 135.89 54.6099 0)
+			(at 114.3 69.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2735,7 +3212,7 @@
 			)
 		)
 		(property "Value" "Conn_01x05"
-			(at 135.89 57.1499 0)
+			(at 114.3 72.3899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2746,7 +3223,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 55.88 0)
+			(at 111.76 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2757,7 +3234,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 55.88 0)
+			(at 111.76 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2768,7 +3245,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 133.35 55.88 0)
+			(at 111.76 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2804,7 +3281,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 81.28 76.2 0)
+		(at 91.44 85.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2815,7 +3292,7 @@
 		(fields_autoplaced yes)
 		(uuid "d8b6cbbd-7c1f-41ca-bf43-872f1f8f977a")
 		(property "Reference" "C1"
-			(at 85.09 74.9299 0)
+			(at 95.25 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2826,7 +3303,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 85.09 77.4699 0)
+			(at 95.25 86.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2837,7 +3314,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 82.2452 80.01 0)
+			(at 92.4052 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2848,7 +3325,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 76.2 0)
+			(at 91.44 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2859,7 +3336,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 81.28 76.2 0)
+			(at 91.44 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
