@@ -2343,6 +2343,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 113.03) (xy 60.96 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20b8b583-aff8-4dd4-8e5f-65a3a026c876")
+	)
+	(wire
+		(pts
 			(xy 60.96 76.2) (xy 57.15 76.2)
 		)
 		(stroke
@@ -2400,6 +2410,16 @@
 			(type default)
 		)
 		(uuid "a1aeba16-2b36-4dd0-bb47-291bd0035408")
+	)
+	(wire
+		(pts
+			(xy 68.58 113.03) (xy 60.96 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b91c8add-4e9f-49f9-9362-209836b527b3")
 	)
 	(wire
 		(pts
@@ -2630,7 +2650,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPDT")
-		(at 86.36 120.65 0)
+		(at 113.03 121.92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2641,7 +2661,7 @@
 		(fields_autoplaced yes)
 		(uuid "2cf6944a-b8bc-495a-9f9d-521e2359087a")
 		(property "Reference" "SW1"
-			(at 86.36 111.76 0)
+			(at 113.03 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2651,7 +2671,7 @@
 			)
 		)
 		(property "Value" "SW_SPDT"
-			(at 86.36 114.3 0)
+			(at 113.03 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2661,7 +2681,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 120.65 0)
+			(at 113.03 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2672,7 +2692,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 128.27 0)
+			(at 113.03 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2683,7 +2703,7 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
-			(at 86.36 120.65 0)
+			(at 113.03 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2706,6 +2726,84 @@
 			(project "Keyboard_USB_Adapter"
 				(path "/5abeb7b7-6d19-4686-bb3f-ba353c7d837b"
 					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 67.31 60.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3552518c-077e-4491-80c4-b4784e952c98")
+		(property "Reference" "#PWR07"
+			(at 67.31 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 67.31 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 67.31 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "05f9ef90-81af-4b91-84d7-e3f111fba0fe")
+		)
+		(instances
+			(project "Keyboard_USB_Adapter"
+				(path "/5abeb7b7-6d19-4686-bb3f-ba353c7d837b"
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -3185,7 +3283,7 @@
 	)
 	(symbol
 		(lib_id "Power_Protection:USBLC6-2SC6")
-		(at 90.17 54.61 0)
+		(at 73.66 113.03 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3196,7 +3294,7 @@
 		(fields_autoplaced yes)
 		(uuid "bf95be1f-b5f8-49db-b388-8d09d9669fd6")
 		(property "Reference" "U1"
-			(at 91.8211 46.99 0)
+			(at 75.3111 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3207,7 +3305,7 @@
 			)
 		)
 		(property "Value" "USBLC6-2SC6"
-			(at 91.8211 49.53 0)
+			(at 75.3111 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3218,7 +3316,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 91.44 60.96 0)
+			(at 74.93 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3231,7 +3329,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
-			(at 91.44 62.865 0)
+			(at 74.93 121.285 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3243,7 +3341,7 @@
 			)
 		)
 		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
-			(at 90.17 54.61 0)
+			(at 73.66 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3364,7 +3462,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x05")
-		(at 100.33 109.22 0)
+		(at 111.76 102.87 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3375,7 +3473,7 @@
 		(fields_autoplaced yes)
 		(uuid "d7a0e0b6-7bff-47f2-8e57-a78defb2c996")
 		(property "Reference" "J2"
-			(at 102.87 107.9499 0)
+			(at 114.3 101.5999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3386,7 +3484,7 @@
 			)
 		)
 		(property "Value" "Conn_01x05"
-			(at 102.87 110.4899 0)
+			(at 114.3 104.1399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3397,7 +3495,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 109.22 0)
+			(at 111.76 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3408,7 +3506,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 109.22 0)
+			(at 111.76 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3419,7 +3517,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 100.33 109.22 0)
+			(at 111.76 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3530,6 +3628,84 @@
 			(project "Keyboard_USB_Adapter"
 				(path "/5abeb7b7-6d19-4686-bb3f-ba353c7d837b"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 60.96 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d9cafe6c-b5e1-4d6b-a87d-03021a61e6fb")
+		(property "Reference" "#PWR06"
+			(at 60.96 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 60.96 123.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 60.96 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "46b43ed1-a53d-4af3-8fed-b2e0a232c453")
+		)
+		(instances
+			(project "Keyboard_USB_Adapter"
+				(path "/5abeb7b7-6d19-4686-bb3f-ba353c7d837b"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
