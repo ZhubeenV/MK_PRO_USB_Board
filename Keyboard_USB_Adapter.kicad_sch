@@ -2336,6 +2336,10 @@
 		(uuid "05ec348e-a2de-442f-b84c-c248befe2cd5")
 	)
 	(no_connect
+		(at 80.01 120.65)
+		(uuid "a5662d2c-cdd5-4bf5-a2d1-fe78ebfcd024")
+	)
+	(no_connect
 		(at 57.15 106.68)
 		(uuid "b5aae81e-ef5f-4d37-aaaa-19cccc8687e2")
 	)
@@ -2468,6 +2472,26 @@
 			(type default)
 		)
 		(uuid "71769251-e364-44f5-b7ba-8eaf0b1c488c")
+	)
+	(wire
+		(pts
+			(xy 80.01 125.73) (xy 82.55 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7258bfdd-df6d-496b-9c5a-6fc8ebc27e28")
+	)
+	(wire
+		(pts
+			(xy 82.55 125.73) (xy 82.55 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "731b8bfd-f0a6-44b5-81d5-ab208af47c72")
 	)
 	(wire
 		(pts
@@ -2719,7 +2743,7 @@
 		)
 		(uuid "0c415a6d-da43-4615-adf6-2dca285686fc")
 	)
-	(label "D-"
+	(label "D+"
 		(at 85.09 110.49 0)
 		(effects
 			(font
@@ -2779,7 +2803,7 @@
 		)
 		(uuid "47a1ea75-76b3-49e4-b3b1-da3e63c84588")
 	)
-	(label "D+"
+	(label "D-"
 		(at 85.09 106.68 0)
 		(effects
 			(font
@@ -4098,6 +4122,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 82.55 128.27 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ceafd9b1-1304-4d9f-9f5c-4e79444694a7")
+		(property "Reference" "#PWR011"
+			(at 82.55 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 82.55 133.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 82.55 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "daef544f-8555-4c3c-96d3-e6242352a551")
+		)
+		(instances
+			(project "Keyboard_USB_Adapter"
+				(path "/5abeb7b7-6d19-4686-bb3f-ba353c7d837b"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 76.2 91.44 180)
 		(unit 1)
@@ -4293,7 +4395,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "10uF"
 			(at 95.25 72.3899 0)
 			(show_name no)
 			(do_not_autoplace no)
